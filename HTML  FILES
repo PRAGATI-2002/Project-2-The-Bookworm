@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive online book store website design tutorial</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link href="The Bookworm.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <div class="header-1">
+<a href="#" class="logo"><i class="fas fa-book"></i> <h1>The Bookworm</h1></a>
+<form action="" class="search-form">
+    <input type="search" name="" placeholder="search here..." id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+</form>
+
+<div class="icons">
+    <div id="search-btn" class="fas fa-search"></div>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+    <div id="login-btn" class="fas fa-user"></div>
+
+
+     
+</div>
+
+
+
+
+        </div>
+<div class="header-2">
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#featured">featured</a>
+        <a href="#arrivals">arrivals</a>
+        <a href="#reviews">reviews</a>
+        <a href="#blogs">blogs</a>
+
+    </nav>
+</div>
+
+
+    </header>
+
+    <!-- header section ends -->
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home">home</a>
+        <a href="#featured" class="fas fa-list">featured</a>
+        <a href="#arrivals" class="fas fa-tags">arrivals</a>
+        <a href="#reviews" class="fas fa-comments">reviews</a>
+        <a href="#blogs" class="fas fa-blogs"></a>
+
+    </nav>
+
+    <!-- login form start -->
+    
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"> </div>
+<form action="">
+    <h3>sign in</h3>
+<span>username</span>
+<input type="email" name="" id="" placeholder="enter your email">
+<span>password</span>
+<input type="password" name="" id="" placeholder="enter your password">
+<div class="check-box">
+    <input type="checkbox" name="remember-me" id="">
+    <label for="remember-me">remember-me</label>
+</div>
+<input type="submit" value="sign in" class="btn">
+<p>forget password ?<a href="#">click here</a></p>
+<p>don't have an account ?<a href="#">create one</a></p>
+
+
+
+</form>
+
+
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+<div class="row">
+
+<div class="content">
+<h3>
+    upto 75% off
+</h3>
+<p>Are you a book maniac? Don't worry we have exciting and huge range of books for you at reasonable prices. Explore and find out what suits you the most and order it now!</p>
+<a href="#" class="btn">Shop now</a>
+
+</div>
+<div class="books-slider">
+    <div class="wraper">
+    <a href="#"><img src="https://m.media-amazon.com/images/I/51lmjHXbUbL._SY346_.jpg" alt=""></a>
+    <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/51Nwl+MQhwL._SY344_BO1,204,203,200_.jpg" alt=""></a>
+    <a href="#"><img src="https://m.media-amazon.com/images/I/51MTFRXJM6L._SY346_.jpg" alt=""></a>
+    <a href="#"><img src="https://m.media-amazon.com/images/I/51YeK878M-L._SY346_.jpg" alt=""></a>
+    <a href="#"><img src="https://m.media-amazon.com/images/I/51SjwgMDXDL._SY346_.jpg" alt=""></a>
+</div>
+</div>
+
+</div>
+
+
+
+    </section>
+
+    <!-- home section ends -->
+
+    <section class="featured" id="featured">
+<h1 class="heading"><span>featured books</span></h1>
+
+<div class="featured-slider">
+
+    <div class="wrapper">
+        <div class="box">
+            <div class="icons">
+<a href="#" class="fas fa-search"> </a>
+<a href="#" class="fas fa-heart">
+
+
+</a>  
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+    <img src="https://m.media-amazon.com/images/I/51lmjHXbUbL._SY346_.jpg">
+</div>
+<div class="content">
+    <h3>featured books</h3>
+    <div class="price">$15.99<span>$20.99</span></div>
+    <a href="#" class="btn">add to cart</a>
+</div>
+        </div>
+    </div>
+</div>
+<div class="box">
+    <div class="icons">
+<a href="#" class="fas fa-search"> </a>
+<a href="#" class="fas fa-heart">
+
+
+</a>  
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="https://images-na.ssl-images-amazon.com/images/I/51Nwl+MQhwL._SY344_BO1,204,203,200_.jpg">
+</div>
+<div class="content">
+<h3>featured books</h3>
+<div class="price">$15.99<span>$20.99</span></div>
+<a href="#" class="btn">add to cart</a>
+</div>
+</div>
+</div>
+</div>
+<div class="box">
+    <div class="icons">
+<a href="#" class="fas fa-search"> </a>
+<a href="#" class="fas fa-heart">
+
+
+</a>  
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="https://m.media-amazon.com/images/I/51MTFRXJM6L._SY346_.jpg">
+</div>
+<div class="content">
+<h3>featured books</h3>
+<div class="price">$15.99<span>$20.99</span></div>
+<a href="#" class="btn">add to cart</a>
+</div>
+</div>
+</div>
+</div>
+<div class="box">
+    <div class="icons">
+<a href="#" class="fas fa-search"> </a>
+<a href="#" class="fas fa-heart">
+
+
+</a>  
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="https://m.media-amazon.com/images/I/51YeK878M-L._SY346_.jpg">
+</div>
+<div class="content">
+<h3>featured books</h3>
+<div class="price">$19.99<span>$20.99</span></div>
+<a href="#" class="btn">add to cart</a>
+</div>
+</div>
+</div>
+</div>
+<div class="box">
+    <div class="icons">
+<a href="#" class="fas fa-search"> </a>
+<a href="#" class="fas fa-heart">
+
+
+</a>  
+<a href="#" class="fas fa-eye"></a>
+</div>
+<div class="image">
+<img src="https://m.media-amazon.com/images/I/51SjwgMDXDL._SY346_.jpg">
+</div>
+<div class="content">
+<h3>featured books</h3>
+<div class="price">$25.99<span>$20.99</span></div>
+<a href="#" class="btn">add to cart</a>
+</div>
+</div>
+</div>
+</div>
+
+    </section>
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>
+                    pur locations
+                </h3>
+                <a href="#"><i class="fas fa-map-marker-alt">India</i></a>
+                <a href="#"><i class="fas fa-map-marker-alt">USA</i></a>
+                <a href="#"><i class="fas fa-map-marker-alt">Russia</i></a>
+                <a href="#"><i class="fas fa-map-marker-alt">France</i></a>
+                <a href="#"><i class="fas fa-map-marker-alt">Japan</i></a>
+                <a href="#"><i class="fas fa-map-marker-alt">Africa</i></a>
+            </div>
+
+            <div class="box">
+                <h3>
+                    quick link
+                </h3>
+                <a href="#"><i class="fas fa-arrow-right">home</i></a>
+                <a href="#"><i class="fas fa-arrow-right">featured</i></a>
+                <a href="#"><i class="fas fa-arrow-right">arrivals</i></a>
+                <a href="#"><i class="fas fa-arrow-right">reviews</i></a>
+                <a href="#"><i class="fas fa-arrow-right">blogs</i></a>
+                
+            </div>
+            <div class="box">
+                <h3>
+                    extra links
+                </h3>
+                <a href="#"><i class="fas fa-arrow-right">account info</i></a>
+                <a href="#"><i class="fas fa-arrow-right">ordered items</i></a>
+                <a href="#"><i class="fas fa-arrow-right">privacy policy</i></a>
+                <a href="#"><i class="fas fa-arrow-right">payment methods</i></a>
+                <a href="#"><i class="fas fa-arrow-right">our services</i></a>
+                
+            </div>
+            <div class="box">
+                <h3>
+                    contact info
+                </h3>
+                <a href="#"><i class="fas fa-phone">+123-456-7890</i></a>
+                <a href="#"><i class="fas fa-phone">+111-222-3330</i></a>
+                <a href="#"><i class="fas fa-envelop">pragatimishra5631@gmail.com</i></a>
+                
+            </div>
+            <div class="share">
+
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="credit">created by<span>Pragati</span>|all rights reserved|
+        </div>
+    </section>
+
+
+    </footer>
+
+
+  
+     <!-- custom js file link  -->
+    <script src="The Bookworm.js">
+    </script>
+</body>
+</html>
